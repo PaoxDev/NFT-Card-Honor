@@ -1,0 +1,111 @@
+body {
+    background-color: #0D1A2D;
+    font-family:'Times New Roman', Times, serif;
+    margin-top: 0;
+    padding: 40px;
+}
+
+
+.card-header {
+    background-color: #1B263B;
+    margin: 20px auto; 
+    width: 400px; 
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.card-image {
+  width: 100%;
+  display:block;
+  border-radius:12px;
+}
+
+.card {
+    background-color: #1B263B;
+    margin: 20px auto; 
+    width: 400px; 
+    padding: 20px;
+    border-radius: 10px;
+}
+.card-title {
+    color: #17e9e9;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.card-para {
+    color: #6c92ae;
+    font-size: 15px;
+    margin-bottom: 0 0 16px;
+}
+
+.info-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info-left, .info-right {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+
+.price {
+    color: #17e9e9;
+    font-size: 15px;
+    font-weight: bold;
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-start;
+
+}
+
+
+.time {
+    color: #6c92ae;
+    font-size: 15px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+}
+
+.divider {
+    border: 0;
+    height: 1px;
+    background-color: rgba(255,255,255,0.12);
+    margin: 16px 0;
+}
+
+.creator {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.avatar {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover; 
+    margin-right: 8px;
+    margin-left: 4px;
+}
+
+.creator-text {
+    color: #6c92ae;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 5px;   
+}
+
+    
+a:link {
+    color: #17e9e9;
+    text-decoration: none;
+}
